@@ -15,7 +15,7 @@ window.onload = function(){
         timer.innerText = start_time + ' sec';
         start_time--;
 
-        if(start_time === 0){
+        if(start_time === -2){
             close_btn.style.display = 'block';
             timer.style.display = 'none';
             window.clearInterval(start_timer);
